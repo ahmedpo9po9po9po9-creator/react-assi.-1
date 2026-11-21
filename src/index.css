@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arabic: "Segoe UI", Tahoma, Arial, sans-serif;
+  --font-display: "Segoe UI", Tahoma, Arial, sans-serif;
+  --color-ink: #fafafa;
+  --color-muted: #a1a1aa;
+  --color-paper: #0a0a0a;
+  --color-accent: #f97316;
+  --color-accent-dark: #fb923c;
+  --color-line: #27272a;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font-arabic);
+  background: #090909;
+  color: #f4f4f5;
+}
+
+#root {
+  min-height: 100vh;
+}
